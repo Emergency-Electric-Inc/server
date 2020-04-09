@@ -478,4 +478,3 @@ aws-apollo-update-service: aws-env-banner
 	 printf "$(NO_COLOR)"																																												&& \
 	 export APOLLO_SERVICE_ARN=$(AWS_APOLLO_SERVICE_ARN) 																												&& \
 	 aws ecs update-service --cluster $(APPLICATION_NAME)-$(ENVIRONMENT_NAME) --service "$${APOLLO_SERVICE_ARN}" --force-new-deployment
-©

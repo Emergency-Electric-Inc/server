@@ -1,0 +1,10 @@
+type User {
+    id: ID! @id
+    profile: Profile
+}
+
+type Profile {
+    id: ID! @id
+    favorite_color: String
+    favorite_shape: String
+}

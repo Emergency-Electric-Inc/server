@@ -1,0 +1,24 @@
+{
+  "name": "prismatopia-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "generate": "prisma generate",
+    "deploy": "prisma deploy",
+    "token": "prisma token",
+    "reset": "prisma reset --force",
+    "seed": "prisma seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "prisma": "^1.34.10",
+    "prisma-client-lib": "^1.34.10"
+  }
+}
